@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiron-project", "Kiron-project\Kiron-project.csproj", "{B4ED2AA4-561B-4916-8680-45A99B71317B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4ED2AA4-561B-4916-8680-45A99B71317B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ED2AA4-561B-4916-8680-45A99B71317B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ED2AA4-561B-4916-8680-45A99B71317B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ED2AA4-561B-4916-8680-45A99B71317B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25B9356-3D4D-4C63-A7AE-3DCFB6C21CA4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿public class CoinQueryParams
+{
+    public int? Page { get; set; }
+    public int? Limit { get; set; }
+    public string Currency { get; set; }
+    public string Name { get; set; }
+    public string Symbol { get; set; }
+    public string Blockchains { get; set; }
+    public bool? IncludeRiskScore { get; set; }
+    public string Categories { get; set; }
+    public string SortBy { get; set; }
+    public string SortDir { get; set; }
+    public decimal? MarketCapGreaterThan { get; set; }
+    public decimal? MarketCapEquals { get; set; }
+    public decimal? MarketCapLessThan { get; set; }
+    public decimal? FullyDilutedValuationGreaterThan { get; set; }
+    public decimal? FullyDilutedValuationEquals { get; set; }
+    public decimal? FullyDilutedValuationLessThan { get; set; }
+    public decimal? VolumeGreaterThan { get; set; }
+    public decimal? VolumeEquals { get; set; }
+    public decimal? VolumeLessThan { get; set; }
+    public decimal? PriceChange1hGreaterThan { get; set; }
+    public decimal? PriceChange1hEquals { get; set; }
+    public decimal? PriceChange1hLessThan { get; set; }
+    public decimal? PriceChange1dGreaterThan { get; set; }
+    public decimal? PriceChange1dEquals { get; set; }
+    public decimal? PriceChange1dLessThan { get; set; }
+    public decimal? PriceChange7dGreaterThan { get; set; }
+    public decimal? PriceChange7dEquals { get; set; }
+    public decimal? PriceChange7dLessThan { get; set; }
+    public decimal? AvailableSupplyGreaterThan { get; set; }
+    public decimal? AvailableSupplyEquals { get; set; }
+    public decimal? AvailableSupplyLessThan { get; set; }
+    public decimal? TotalSupplyGreaterThan { get; set; }
+    public decimal? TotalSupplyEquals { get; set; }
+    public decimal? TotalSupplyLessThan { get; set; }
+    public int? RankGreaterThan { get; set; }
+    public int? RankEquals { get; set; }
+    public int? RankLessThan { get; set; }
+    public decimal? PriceGreaterThan { get; set; }
+    public decimal? PriceEquals { get; set; }
+    public decimal? PriceLessThan { get; set; }
+    public decimal? RiskScoreGreaterThan { get; set; }
+    public decimal? RiskScoreEquals { get; set; }
+    public decimal? RiskScoreLessThan { get; set; }
+}
