@@ -7,10 +7,9 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddCors();
-        services.AddControllers();//.AddNewtonsoftJson();
+        services.AddControllers().AddNewtonsoftJson();
         services.AddHttpContextAccessor();
         services.AddHttpClient();
-
 
         var module = services.FirstOrDefault(t => t.ImplementationFactory?.GetType() == typeof(Func<IServiceProvider, DependencyTrackingTelemetryModule>));
         if (module != null)
@@ -18,9 +17,6 @@ public class Startup
             services.Remove(module);
         }
 
-
-
-        IAppSettingsService appSettingsService = new AppSettingsService();
         services.AddSingleton(new AppSettingsService() as IAppSettingsService);
 
         services.Configure<FormOptions>(x => x.ValueCountLimit = 12048);
@@ -32,11 +28,9 @@ public class Startup
     {
         if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
-
         app.UseValidateJwtToken();
         app.UseStaticFiles();
         app.UseRouting();
-
         app.UseEndpoints(endpoints => endpoints.MapControllers());
 
     }

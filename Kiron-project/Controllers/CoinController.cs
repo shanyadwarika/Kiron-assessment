@@ -18,6 +18,6 @@ public class CoinController : ControllerBase
     {
         var result = await _repository.GetCoinStatsAsync(queryParams);
         if (result == null) return StatusCode(500, "Unable to fetch coin stats.");
-        return Ok(dresult ata);
+        return Ok(result);
     }
 }

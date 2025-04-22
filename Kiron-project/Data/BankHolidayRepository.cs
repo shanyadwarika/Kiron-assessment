@@ -44,11 +44,11 @@ public class BankHolidayRepository : Repository<BankHoliday>
 
             // Map regions and their events dynamically
             var regions = new Dictionary<string, RegionBankHolidays>
-        {
-            { "england-and-wales", bankHolidaysResponse.EnglandAndWales },
-            { "scotland", bankHolidaysResponse.Scotland },
-            { "northern-ireland", bankHolidaysResponse.NorthernIreland }
-        };
+            {
+                { "england-and-wales", bankHolidaysResponse.EnglandAndWales },
+                { "scotland", bankHolidaysResponse.Scotland },
+                { "northern-ireland", bankHolidaysResponse.NorthernIreland }
+            };
 
             var events = regions
                 .Where(r => r.Value?.Events != null)
