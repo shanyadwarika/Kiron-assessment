@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kiron-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d8727e94058129ed899d5353f5ef803a22e1bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a127b1b7f829ca44b199684fafa4bbc9da45f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kiron-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kiron-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
