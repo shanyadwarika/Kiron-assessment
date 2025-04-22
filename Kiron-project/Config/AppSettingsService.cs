@@ -9,11 +9,6 @@ public class AppSettingsService : IAppSettingsService
     {
         string appSettingsFile = "appsettings.json";
 
-        if (Debugger.IsAttached)
-        {
-            appSettingsFile = "debug-appsettings.json";
-        }
-
         this._configuration = new ConfigurationBuilder()
              .SetBasePath(basePath == null ? AppContext.BaseDirectory : basePath)
              .AddJsonFile(appSettingsFile, optional: false, reloadOnChange: true)
